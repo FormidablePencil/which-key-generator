@@ -11,7 +11,7 @@ function App() {
 <input type='text' value={value1} onChange={(e) => setValue1(e.target.value)} />
 <input type='text' value={value2} onChange={(e) => setValue2(e.target.value)} />
 
-  <div>/  '{value1}', ['','{value2}'],</div>
+  <div>\  '{value1}' : ['','{value2}'],</div>
    </>
   );
 }
