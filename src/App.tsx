@@ -1,5 +1,6 @@
-import {useState} from 'react';
 import './App.css';
+
+import React, { useState } from 'react';
 
 function App() {
   const [value1, setValue1] = useState('')
